@@ -6,7 +6,7 @@ class Rational(n: Int, d: Int) {
     To perform Rational operations on Ints ( Ex: 2 * new Rational(5,2) ),
     add an implicit conversion:
         
-        implicit def intToRationals(x: Int) = new Rational(x)
+        implicit def intToRational(x: Int) = new Rational(x)
 
     This will convert Ints to Rationals automatically in a number of situations.
     """
